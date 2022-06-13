@@ -1,0 +1,8 @@
+---
+- hosts: 10.182.60.56
+  tasks:
+  - name: Ansible copy file to remote server
+    copy:
+      src: /tmp/serverlist
+      dest: /tmp/
+[automation_test@z182sp-rfxusc1deploybox01 ~]$
